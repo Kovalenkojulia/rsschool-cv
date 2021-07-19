@@ -95,4 +95,13 @@ Krasnodar State Institute of Management, Russia
                 </div>
             </section>           
   ```
-         
+ ### Languages 
+ * English (Upper Intermediate)
+ * Spanish (Intermediate)
+ * German (Basic)
+ * Russian (native)
+
+### Work Experience
+* June 2021 - Freelance
+* June 2021 Accomplished the development of the Tourism Agency Natours website, using HTML5, SCC, Saas.
+* July 2021 Accomplished the development of the company's Spanish website, using WordPress, multilanguahes        
