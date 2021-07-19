@@ -25,3 +25,24 @@ Julia Kovalenko
 Sept 2004 Master of Business Administration
 Krasnodar State Institute of Management, Russia
 
+  __Cettificates__
+  * April 2021 - Introduction in Computer science
+  * April 2021 - HTML5 and CSS3
+  * July 2021 - Programming Foundations
+  
+### Hard Skills
+* HTML5
+* CSS3
+* Bootstrap
+* Markdown
+* Git/GitHub
+* Java Script
+
+### Soft Skills
+* hard working
+* ditale oriented
+* creative
+* continuous learner
+* positive
+  
+
