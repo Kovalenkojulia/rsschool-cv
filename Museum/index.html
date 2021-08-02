@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+    <title>Museum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="img/Logo.png" alt="logo">
+        
+            <nav>
+                <ul class="nav right">
+                    <li><a href="#visiting">Visiting</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#tickets">Tickets</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main>
+        <section class="welcome" id="welcome">
+            <div class="container">
+                <div class="welcome_wrapper">
+                    <h1 class="welcome_header">Welcome
+                        <br>
+                        to the louvre
+                    </h1>
+                    <p class="welcome_descr">From the castle to the museum</p>
+                    <a class="welcome_btn" href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736" target="_blank">Discover the Louvre</a>
+                </div>
+                
+                <img class="welcome_img" src="pictures/header_background.jpg" alt="Museum">
+            </div>
+        </section>
+
+        <section class="virtual_tour" id="visiting">
+            <h2 class=virtual_header>Virtual Tour</h2>
+
+
+            <div class="wrap">
+
+                <div class="virtual_tour_block">
+                    <img src="pictures/virtual tour/royal_palace.jpg" alt="">
+                    <a class="link_header" href="#">Royal Palace</a>
+                    <a class="link_tour" href="#">360 Virtual Tour</a>
+                    <a class="ling_panorama" href="#">Google Street Panorama View</a>
+                    </div>
+
+                    <div class="virtual_tour_block">
+                        <img src="pictures/virtual tour/colonnade_perrault.jpg" alt="">
+                        <a class="link_header" href="#">Colonnade perrault</a>
+                        <a class="link_tour" href="#">360 Virtual Tour</a>
+                        <a class="ling_panorama" href="#">Google Street Panorama View</a>
+                    </div>
+
+                    <div class="virtual_tour_block">
+                        <img src="pictures/virtual tour/denon_wing.jpg" alt="">
+                        <a class="link_header" href="#">Danon Wing</a>
+                        <a class="link_tour" href="#">360 Virtual Tour</a>
+                        <a class="ling_panorama" href="#">Google Street Panorama View</a>
+                    </div>
+            </div>
+
+            <div class="wrap">
+                <div class="virtual_tour_block">
+                    <img src="pictures/virtual tour/greek_hall.jpg" alt="">
+                    <a class="link_header" href="#">Greek Hall</a>
+                    <a class="link_tour" href="#">360 Virtual Tour</a>
+                    <a class="ling_panorama" href="#">Google Street Panorama View</a>
+                </div>
+
+                <div class="virtual_tour_block">
+                    <img src="pictures/virtual tour/mona_lisa.jpg" alt="">
+                    <a class="link_header" href="#">Mona Lisa</a>
+                    <a class="link_tour" href="#">360 Virtual Tour</a>
+                    <a class="ling_panorama" href="#">Google Street Panorama View</a>
+                </div>
+
+                <div class="virtual_tour_block">
+                    <img src="pictures/virtual tour/night_palace.jpg" alt="">
+                    <a class="link_header" href="#">Night Palace</a>
+                    <a class="link_tour" href="#">360 Virtual Tour</a>
+                    <a class="ling_panorama" href="#">Google Street Panorama View</a>
+                </div>
+
+            </div>
+       
+        </section>
+
+        <section class="explore" id="explore">
+            <div class="container_explore">
+                <div class="explore_leftside">
+                    <h2 class="explore_header">Picture Explore</h2>
+                   
+                    <p class="explore_descr">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+                    <p class="explore_descr">It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in the 19th century.</p>
+                    <p class="explore_descr">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+
+                </div>
+
+                <div class="rightside">
+                    <img src="pictures/explore.png" alt="explore" class="explore_img">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="video" id="video">
+            <div class="container container_video">
+                <iframe width="1440" height="629" src="https://www.youtube.com/embed/zp1BXPX8jcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video_content">
+                <h2 class="video_title">Video Journey</h2>
+                <p class="video_text">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+            </div>
+        </section>
+
+        <section class="tickets" id="tickets">
+            <div class="container">
+                <h2 class="tickets_title">Buy Tickets</h2>
+            </div>
+            <div class="tickets_content">
+                <div class="tickets_image">
+                    <img class="ticket_img" src="pictures/tickets.png" alt="">
+                </div>
+                <form class="ticket_type">
+                    <h3 class="tickets_subtitle">Ticket Type</h3>
+                    <input id="permanent" type="radio" name="exhibition">
+                    <label for="permanent">Permanent exhibition</label>
+
+                    <input id="temporary" type="radio" name="exhibition">
+                    <label for="temporary">Temporary exhibition</label>
+
+                    <input id="combined" type="radio" name="exhibition">
+                    <label for="combined">Combined Admission</label>
+                </form>
+            </div>
+
+        </section>
+        <section class="contacts">
+
+
+        </section>
+
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
